@@ -23,10 +23,10 @@ Final_Project/
 ├── battery_discharge.csv
 ├── listings-Rome.csv
 ├── images/
-│   ├── battery_comparison.png
-│   ├── airbnb_regression.png
-│   ├── deblurring_results.png
-│   └── convergence_analysis.png
+│   ├── battery_comparison.PNG
+│   ├── airbnb_regression.PNG
+│   ├── deblurring_results.PNG
+│   └── convergence_analysis.PNG
 └── README.md
 ```
 
@@ -76,7 +76,7 @@ Study the discharge cycle of a lithium-ion battery and estimate voltage values t
 ### Comparison of Interpolation and Regression Methods
 
 <p align="center">
-  images/battery_comparison.png" width="750">
+  <img src="images/battery_comparison.PNG" alt="Battery comparison" width="750"/>
 </p>
 
 *Figure 1. Battery voltage evolution and comparison of interpolation and regression methods.*
@@ -109,7 +109,7 @@ Analyze Airbnb listings in Rome and investigate the relationship between propert
 ### Regression Analysis
 
 <p align="center">
- <img src="images/airbnb_regression.png" width="700">
+  <img src="images/airbnb_regression.PNG" alt="Airbnb regression" width="700"/>
 </p>
 
 *Figure 2. Example of regression results obtained from the Airbnb dataset.*
@@ -143,7 +143,7 @@ Recover a blurred image by solving a linear inverse problem associated with a Ga
 ### Image Reconstruction
 
 <p align="center">
-  <img src="images/deblurring_results.png" width="950">
+  <img src="images/deblurring_results.PNG" alt="Deblurring results" width="950"/>
 </p>
 
 *Figure 3. Original image, blurred image, and reconstructed image.*
@@ -151,7 +151,7 @@ Recover a blurred image by solving a linear inverse problem associated with a Ga
 ### Convergence Analysis
 
 <p align="center">
-  <img src="images/convergence_analysis.png"  width="750">
+  <img src="images/convergence_analysis.PNG" alt="Convergence analysis" width="750"/>
 </p>
 
 *Figure 4. Comparison of Jacobi and Gauss-Seidel convergence behaviour.*
